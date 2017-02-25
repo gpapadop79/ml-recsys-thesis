@@ -1,0 +1,8 @@
+		 dataset
+		/		\
+	   /		 \
+	 train(80)	test(20)
+	/	   \
+   /	    \
+train_set	val_set
+(70)			(10)
