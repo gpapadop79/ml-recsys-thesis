@@ -16,13 +16,15 @@ import os
 user_path = os.environ['USERPROFILE']
 data_path = user_path + r'\\Google Drive\\thesis\\datasets'
 
+# data_path = r'' # Set path to datasets
+
 DATASET = 'ml-100k'
 #DATASET = 'ml-1M'
 #DATASET = 'jester-1'
 #DATASET = 'book-crossing'
 
 plot = False
-plot = True
+#plot = True # set to true for data distribution plotting
 
 split_dataset = False
 
